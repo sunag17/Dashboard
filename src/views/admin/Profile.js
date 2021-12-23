@@ -16,8 +16,8 @@ import FormLabel from "@material-ui/core/FormLabel";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 // @material-ui/icons components
-import LocationOn from "@material-ui/icons/LocationOn";
-import School from "@material-ui/icons/School";
+// import LocationOn from "@material-ui/icons/LocationOn";
+// import School from "@material-ui/icons/School";
 
 // core components
 import UserHeader from "components/Headers/UserHeader.js";
@@ -264,7 +264,7 @@ function Profile() {
                           <Box
                             paddingLeft="0.75rem"
                             paddingRight="0.75rem"
-                            component={FilledInput}
+                            // component={FilledIDashnput}
                             autoComplete="off"
                             type="text"
                             defaultValue="United States"
@@ -375,26 +375,26 @@ function Profile() {
                 paddingBottom="0!important"
                 paddingTop="8rem!important"
                 classes={{ root: classes.cardHeaderRootProfile }}
-                subheader={
-                  <Box display="flex" justifyContent="space-between">
-                    <Button
-                      variant="contained"
-                      size="small"
-                      classes={{ root: classes.buttonRootInfo }}
-                    >
-                      Connect
-                    </Button>
-                    <Button
-                      variant="contained"
-                      size="small"
-                      classes={{ root: classes.buttonRootDark }}
-                    >
-                      Message
-                    </Button>
-                  </Box>
-                }
+                // subheader={
+                //   // <Box display="flex" justifyContent="space-between">
+                //   //   <Button
+                //   //     variant="contained"
+                //   //     size="small"
+                //   //     classes={{ root: classes.buttonRootInfo }}
+                //   //   >
+                //   //     {/* Connect
+                //   //   </Button>
+                //   //   <Button
+                //   //     variant="contained"
+                //   //     size="small"
+                //   //     classes={{ root: classes.buttonRootDark }}
+                //   //   > */}
+                //   //     Message
+                //   //   </Button>
+                //   // </Box>
+                // }
               ></Box>
-              <Box
+              {/* <Box
                 component={CardContent}
                 classes={{ root: classes.ptMd4 }}
                 paddingTop="0!important"
@@ -477,9 +477,9 @@ function Profile() {
                 </Grid>
                 <Box textAlign="center">
                   <Typography variant="h3">
-                    Jessica Jones
+                   Name 
                     <Box component="span" fontWeight="300">
-                      , 27
+                      ,Age
                     </Box>
                   </Typography>
                   <Box
@@ -542,7 +542,7 @@ function Profile() {
                     Show More
                   </a>
                 </Box>
-              </Box>
+              </Box> */}
             </Card>
           </Grid>
         </Grid>

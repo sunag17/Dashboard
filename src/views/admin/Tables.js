@@ -247,7 +247,7 @@ const Tables = () => {
                           }
                         />
                       </Tooltip>
-                      <Tooltip title="Jessica Doe" placement="top">
+                      <Tooltip title="Name" placement="top">
                         <Avatar
                           classes={{ root: classes.avatarRoot }}
                           alt="..."
@@ -392,7 +392,7 @@ const Tables = () => {
                           }
                         />
                       </Tooltip>
-                      <Tooltip title="Jessica Doe" placement="top">
+                      <Tooltip title="Name" placement="top">
                         <Avatar
                           classes={{ root: classes.avatarRoot }}
                           alt="..."
@@ -537,7 +537,7 @@ const Tables = () => {
                           }
                         />
                       </Tooltip>
-                      <Tooltip title="Jessica Doe" placement="top">
+                      <Tooltip title="Name" placement="top">
                         <Avatar
                           classes={{ root: classes.avatarRoot }}
                           alt="..."
@@ -682,7 +682,7 @@ const Tables = () => {
                           }
                         />
                       </Tooltip>
-                      <Tooltip title="Jessica Doe" placement="top">
+                      <Tooltip title="Name" placement="top">
                         <Avatar
                           classes={{ root: classes.avatarRoot }}
                           alt="..."
@@ -831,7 +831,7 @@ const Tables = () => {
                           }
                         />
                       </Tooltip>
-                      <Tooltip title="Jessica Doe" placement="top">
+                      <Tooltip title="Name" placement="top">
                         <Avatar
                           classes={{ root: classes.avatarRoot }}
                           alt="..."
@@ -1062,7 +1062,7 @@ const Tables = () => {
                           }
                         />
                       </Tooltip>
-                      <Tooltip title="Jessica Doe" placement="top">
+                      <Tooltip title="Name" placement="top">
                         <Avatar
                           classes={{ root: classes.avatarRoot }}
                           alt="..."
@@ -1207,7 +1207,7 @@ const Tables = () => {
                           }
                         />
                       </Tooltip>
-                      <Tooltip title="Jessica Doe" placement="top">
+                      <Tooltip title="Name" placement="top">
                         <Avatar
                           classes={{ root: classes.avatarRoot }}
                           alt="..."
@@ -1352,7 +1352,7 @@ const Tables = () => {
                           }
                         />
                       </Tooltip>
-                      <Tooltip title="Jessica Doe" placement="top">
+                      <Tooltip title="Name" placement="top">
                         <Avatar
                           classes={{ root: classes.avatarRoot }}
                           alt="..."
@@ -1497,7 +1497,7 @@ const Tables = () => {
                           }
                         />
                       </Tooltip>
-                      <Tooltip title="Jessica Doe" placement="top">
+                      <Tooltip title="Name" placement="top">
                         <Avatar
                           classes={{ root: classes.avatarRoot }}
                           alt="..."
@@ -1646,7 +1646,7 @@ const Tables = () => {
                           }
                         />
                       </Tooltip>
-                      <Tooltip title="Jessica Doe" placement="top">
+                      <Tooltip title="Name " placement="top">
                         <Avatar
                           classes={{ root: classes.avatarRoot }}
                           alt="..."

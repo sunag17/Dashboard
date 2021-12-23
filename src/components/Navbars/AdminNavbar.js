@@ -9,7 +9,7 @@ import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 
 // @material-ui/icons components
-import SearchIcon from "@material-ui/icons/Search";
+// import SearchIcon from "@material-ui/icons/Search";
 
 // core components
 import NavbarDropdown from "components/Dropdowns/NavbarDropdown.js";
@@ -60,9 +60,9 @@ export default function AdminNavbar({ brandText }) {
                     root: classes.searchBox,
                   }}
                 >
-                  <SearchIcon className={classes.searchIcon} />
+                  {/* <SearchIcon className={classes.searchIcon} /> */}
                   <InputBase
-                    placeholder="Search"
+                    placeholder=""
                     classes={{
                       input: classes.searchInput,
                     }}
