@@ -13,8 +13,8 @@ const componentStyles = (theme) => ({
   },
   containerRoot: {
     [theme.breakpoints.up("md")]: {
-      paddingLeft: "39px",
-      paddingRight: "39px",
+      paddingLeft: "400px",
+      paddingRight: "0px",
     },
   },
   gridItemRoot: {
@@ -43,7 +43,7 @@ const componentStyles = (theme) => ({
   cardHeaderRootProfile: {
     [theme.breakpoints.up("sm")]: {
       paddingBottom: "1.5rem!important",
-      paddingTop: "1.5rem!important",
+      paddingTop: ".5rem!impo1rtant",
     },
   },
   buttonRootInfo: {

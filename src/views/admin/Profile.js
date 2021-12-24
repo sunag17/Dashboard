@@ -3,7 +3,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { useTheme } from "@material-ui/core/styles";
 import Box from "@material-ui/core/Box";
-import Button from "@material-ui/core/Button";
+// import Button from "@material-ui/core/Button";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import CardHeader from "@material-ui/core/CardHeader";
@@ -23,7 +23,7 @@ import Typography from "@material-ui/core/Typography";
 import UserHeader from "components/Headers/UserHeader.js";
 
 import componentStyles from "assets/theme/views/admin/profile.js";
-import boxShadows from "assets/theme/box-shadow.js";
+// import boxShadows from "assets/theme/box-shadow.js";
 
 const useStyles = makeStyles(componentStyles);
 
@@ -77,13 +77,13 @@ function Profile() {
                         display="flex"
                         flexWrap="wrap"
                       >
-                        <Button
+                        {/* <Button
                           variant="contained"
                           color="primary"
                           size="small"
                         >
                           Settings
-                        </Button>
+                        </Button> */}
                       </Box>
                     </Grid>
                   </Grid>
@@ -121,7 +121,7 @@ function Profile() {
                             component={FilledInput}
                             autoComplete="off"
                             type="text"
-                            defaultValue="lucky.jesse"
+                            defaultValue="abc"
                           />
                         </FormControl>
                       </FormGroup>
@@ -141,7 +141,7 @@ function Profile() {
                             component={FilledInput}
                             autoComplete="off"
                             type="email"
-                            placeholder="jesse@example.com"
+                            placeholder="abc12@example.com"
                           />
                         </FormControl>
                       </FormGroup>
@@ -163,7 +163,7 @@ function Profile() {
                             component={FilledInput}
                             autoComplete="off"
                             type="text"
-                            defaultValue="Lucky"
+                            defaultValue="def"
                           />
                         </FormControl>
                       </FormGroup>
@@ -183,7 +183,7 @@ function Profile() {
                             component={FilledInput}
                             autoComplete="off"
                             type="text"
-                            defaultValue="Jesse"
+                            defaultValue="hi"
                           />
                         </FormControl>
                       </FormGroup>
@@ -225,7 +225,7 @@ function Profile() {
                             component={FilledInput}
                             autoComplete="off"
                             type="text"
-                            defaultValue="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09"
+                            defaultValue="ABC DEF , nr. 8 Bl 1, Sc 1, Ap 09"
                           />
                         </FormControl>
                       </FormGroup>
@@ -247,7 +247,7 @@ function Profile() {
                             component={FilledInput}
                             autoComplete="off"
                             type="text"
-                            defaultValue="New York"
+                            defaultValue="PUNE"
                           />
                         </FormControl>
                       </FormGroup>
@@ -264,10 +264,10 @@ function Profile() {
                           <Box
                             paddingLeft="0.75rem"
                             paddingRight="0.75rem"
-                            // component={FilledIDashnput}
+                            component={FilledInput}
                             autoComplete="off"
                             type="text"
-                            defaultValue="United States"
+                            defaultValue="INDIA"
                           />
                         </FormControl>
                       </FormGroup>
@@ -299,7 +299,7 @@ function Profile() {
                   marginBottom="1.5rem!important"
                   marginTop="1.5rem!important"
                 />
-                <Box
+                {/* <Box
                   component={Typography}
                   variant="h6"
                   color={theme.palette.gray[600] + "!important"}
@@ -311,8 +311,8 @@ function Profile() {
                   classes={{ root: classes.typographyRootH6 }}
                 >
                   About me
-                </Box>
-                <div className={classes.plLg4}>
+                </Box> */}
+                {/* <div className={classes.plLg4}>
                   <Grid container>
                     <Grid item xs={12}>
                       <FormGroup>
@@ -335,8 +335,8 @@ function Profile() {
                         </FormControl>
                       </FormGroup>
                     </Grid>
-                  </Grid>
-                </div>
+                  </Grid> */}
+                {/* </div> */}
               </CardContent>
             </Card>
           </Grid>
@@ -349,7 +349,7 @@ function Profile() {
             classes={{ root: classes.order1 + " " + classes.marginBottomXl0 }}
           >
             <Card classes={{ root: classes.cardRoot }}>
-              <Box component={Grid} container justifyContent="center">
+              {/* <Box component={Grid} container justifyContent="center">
                 <Grid item xs={12} lg={3}>
                   <Box position="relative">
                     <Box
@@ -367,8 +367,8 @@ function Profile() {
                     />
                   </Box>
                 </Grid>
-              </Box>
-              <Box
+              </Box> */}
+              {/* <Box
                 component={CardHeader}
                 border="0!important"
                 textAlign="center"
@@ -389,11 +389,11 @@ function Profile() {
                 //   //     size="small"
                 //   //     classes={{ root: classes.buttonRootDark }}
                 //   //   > */}
-                //   //     Message
+                {/* //   //     Message
                 //   //   </Button>
                 //   // </Box>
                 // }
-              ></Box>
+              ></Box> */} 
               {/* <Box
                 component={CardContent}
                 classes={{ root: classes.ptMd4 }}

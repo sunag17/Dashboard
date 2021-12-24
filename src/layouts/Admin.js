@@ -72,7 +72,7 @@ const Admin = () => {
           input={
             <FormControl variant="outlined" fullWidth>
               <InputLabel htmlFor="outlined-adornment-search-responsive">
-                sss
+                Search
               </InputLabel>
               <OutlinedInput
                 id="outlined-adornment-search-responsive"

@@ -4,7 +4,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { useTheme } from "@material-ui/core/styles";
 import Box from "@material-ui/core/Box";
-import Button from "@material-ui/core/Button";
+// import Button from "@material-ui/core/Button";
 import Container from "@material-ui/core/Container";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
@@ -58,15 +58,14 @@ const UserHeader = () => {
                 lineHeight="1.7"
                 fontSize="1rem"
               >
-                This is your profile page. You can see the progress you've made
-                with your work and manage your projects or assigned tasks
+            Enter your Informations
               </Box>
-              <Button
+              {/* <Button
                 variant="contained"
                 classes={{ root: classes.buttonRoot }}
               >
                 Edit profile
-              </Button>
+              </Button> */}
             </Grid>
           </Grid>
         </Container>
